@@ -10,6 +10,7 @@ A reverse shell written in c
 
 ## On the attacking box
 * $nc -nvlp 4444
+* When target box reboots or powers on, it will establish connection
 * Wait for connection to pop
 * Have root
 
