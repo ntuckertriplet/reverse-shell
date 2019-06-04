@@ -8,6 +8,7 @@ ExecStart=/etc/init.d/"INIT FILE NAME"
 KillSignal=SIGTERM
 KillMode=process
 Restart=always
+RuntimeMaxSec=604800
 
 [Install]
 WantedBy=multi-user.target
