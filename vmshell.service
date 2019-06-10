@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/etc/init.d/vmshell.service
+ExecStart=/etc/init.d/shellservice
 KillSignal=SIGTERM
 KillMode=process
 Restart=always
