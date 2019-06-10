@@ -1,11 +1,11 @@
 #! /bin/bash
 ### BEGIN INIT INFO
-# Provides: BINARY NAME HERE
+# Provides: shell
 # Required-Start: $all
 # Required-Stop:
-# Default-Start 2 3 4 5
-# Default-Stop:
+# Default-Start: 2 3 4 5
+# Deafult-Stop:
 # Short-Description: shell
 ### END INIT INFO
 cd /
-./shelled
+./shell
